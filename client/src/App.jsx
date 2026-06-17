@@ -24,10 +24,22 @@ export default function App() {
       <AuthProvider>
         <CartProvider>
           <Toaster position="top-right" toastOptions={{ duration: 3000 }} />
-          <div className="min-h-screen flex flex-col">
-            <Navbar />
-            <main className="flex-1">
-              <Routes>
+          <div 
+            className="min-h-screen flex flex-col"
+            style={{
+              backgroundImage: 'url(/storefront.png)',
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+              backgroundAttachment: 'fixed',
+              backgroundRepeat: 'no-repeat'
+            }}
+          >
+            {/* Semi-transparent dark overlay for text readability */}
+            <div className="absolute inset-0 bg-black/40 pointer-events-none"></div>
+            <div className="relative z-10">
+              <Navbar />
+              <main className="flex-1">
+                <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/products" element={<Products />} />
                 <Route path="/cart" element={<Cart />} />
@@ -42,8 +54,9 @@ export default function App() {
                   <Route path="orders" element={<AdminOrders />} />
                 </Route>
               </Routes>
-            </main>
-            <Footer />
+              </main>
+              <Footer />
+            </div>
           </div>
         </CartProvider>
       </AuthProvider>

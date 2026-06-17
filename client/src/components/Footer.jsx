@@ -20,7 +20,11 @@ export default function Footer() {
           <div className="space-y-2 text-green-300 text-sm">
             <div className="flex items-center gap-2"><PhoneIcon className="w-4 h-4" /><a href="tel:+919443335527" className="hover:text-white transition-colors">+91 94433 35527</a></div>
             <div className="flex items-center gap-2"><EnvelopeIcon className="w-4 h-4" /><a href="mailto:thanjavurarasiaalai@gmail.com" className="hover:text-white transition-colors">thanjavurarasiaalai@gmail.com</a></div>
-            <div className="flex items-start gap-2"><MapPinIcon className="w-4 h-4 mt-0.5 flex-shrink-0" /><span>Thanjavur Arasi Aalai, Thanjavur, Tamil Nadu - 613001, India</span></div>
+            <div className="flex items-start gap-2"><MapPinIcon className="w-4 h-4 mt-0.5 flex-shrink-0" /><span>Shop No. 300, Palakkad - Coimbatore Rd, Pulakadu, Kuniyamuthur, Tamil Nadu 641008, India</span></div>
+          </div>
+          <div className="mt-4 p-3 bg-orange-600/30 border border-orange-500 rounded text-orange-200 text-xs">
+            <p className="font-bold mb-1">📦 Delivery Area: Kunimuthur Only</p>
+            <p>We deliver fresh products to Kunimuthur area with same-day service available.</p>
           </div>
         </div>
 
