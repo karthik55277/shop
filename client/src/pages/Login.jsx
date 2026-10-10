@@ -49,9 +49,7 @@ export default function Login() {
         <p className="text-center text-sm text-gray-500 mt-4">
           Don't have an account? <Link to="/register" className="text-green-600 font-medium hover:underline">Register</Link>
         </p>
-        <div className="mt-4 p-3 bg-amber-50 rounded-lg text-xs text-amber-700">
-          <strong>Demo Admin:</strong> admin@arasi.com / admin123
-        </div>
+
       </div>
     </div>
   );
