@@ -26,7 +26,7 @@ export default function Home() {
           <div className="mb-2 text-sm uppercase tracking-wider font-bold text-yellow-300">Welcome to</div>
           <h1 className="text-5xl md:text-6xl font-bold mb-2 text-white drop-shadow-lg">தஞ்சாவூர் அரிசி ஆலை</h1>
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-yellow-300 drop-shadow-lg">Thanjavur Rice Mills</h2>
-          <p className="text-lg md:text-xl text-yellow-100 mb-2 font-semibold drop-shadow-lg">தஞ்சாவூரின் மதுரமான சாதனங்கள் — Quality You Can Trust</p>
+          <p className="text-lg md:text-xl text-yellow-100 mb-2 font-semibold drop-shadow-lg">Quality You Can Trust</p>
           <p className="text-yellow-200 mb-8 text-sm md:text-base drop-shadow-lg">Premium Wholesale Rice, Pulses, Spices & Groceries • Direct from our Mill to Your Home</p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
